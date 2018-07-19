@@ -120,10 +120,10 @@ Scenario: Add two numbers
 1. 高层次设计（HLD）是整个系统的设计-包括**系统架构**和**数据库设计**。 它描述了该系统的各个模块和功能之间的关系。 **数据流**，**流程图**和**数据结构**下HLD覆盖。
 2. 低级别设计（LLD）就像是详细的HLD。 它定义了用于该系统的每个部件的**实际逻辑**。 **类图**与**类**之间的所有**方法**和**关系**。 程序规范是根据LLD覆盖。
 
-[TDD]:(https://baike.baidu.com/item/TDD/9064369)
-[Test Drive Development]:(https://zh.wikipedia.org/zh-hans/%E6%B5%8B%E8%AF%95%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91)
-[BDD]:(https://baike.baidu.com/item/BDD/10735732?fr=aladdin)
-[Behavior Driven Development]:(https://zh.wikipedia.org/wiki/%E8%A1%8C%E4%B8%BA%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91)
+[TDD]:https://baike.baidu.com/item/TDD/9064369
+[Test Drive Development]:https://zh.wikipedia.org/zh-hans/%E6%B5%8B%E8%AF%95%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91
+[BDD]:https://baike.baidu.com/item/BDD/10735732?fr=aladdin
+[Behavior Driven Development]:https://zh.wikipedia.org/wiki/%E8%A1%8C%E4%B8%BA%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91
 
 ## .net下的测试框架及相关库
 
@@ -142,10 +142,10 @@ Scenario: Add two numbers
 
 ### 关于ATDD及DDD.下次再探索
 
-[xUnit.net]:(https://xunit.github.io/)
-[MSTest]:(https://msdn.microsoft.com/en-us/library/ms243147.aspx)
-[NUnit]:(http://nunit.org/)
-[Shouldly]:(http://docs.shouldly-lib.net/)
-[SpecFlow]:(https://specflow.org/)
-[Cucumber]:(https://docs.cucumber.io/)
-[Gherkin]:(https://docs.cucumber.io/gherkin/reference/)
+[xUnit.net]:https://xunit.github.io/
+[MSTest]:https://msdn.microsoft.com/en-us/library/ms243147.aspx
+[NUnit]:http://nunit.org/
+[Shouldly]:http://docs.shouldly-lib.net/
+[SpecFlow]:https://specflow.org/
+[Cucumber]:https://docs.cucumber.io/
+[Gherkin]:https://docs.cucumber.io/gherkin/reference/
