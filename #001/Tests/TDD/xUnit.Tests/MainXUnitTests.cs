@@ -27,6 +27,7 @@ namespace xUnit.Tests
         [InlineData(1, 1, 2)]
         [InlineData(100, 100, 200)]
         [InlineData(8000, 800, 8800)]
+        [Xunit.TraitAttribute("分类", "Add_Theory")]
         public void Add_Theory(int one, int two, int addResult)
         {
             Assert.Equal(addResult, main.Add(one, two));
