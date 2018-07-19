@@ -24,10 +24,9 @@ namespace NUnit.Tests
             Assert.AreEqual(250, addResult);
         }
 
-        [DataTestMethod]
-        [DataRow(1, 1, 2)]
-        [DataRow(100, 100, 200)]
-        [DataRow(8000, 800, 8800)]
+        [TestCase(1, 1, 2)]
+        [TestCase(100, 100, 200)]
+        [TestCase(8000, 800, 8800)]
         public void Add_DatasTest(int one, int two, int addResult)
         {
             Assert.AreEqual(addResult, main.Add(one, two));
@@ -35,59 +34,57 @@ namespace NUnit.Tests
         #endregion
 
         #region AddV2 Tests
-        [TestMethod]
+        [Test]
         public void AddV2_Test()
         {
             var addV2Result = main.AddV2(30, 20);
             Assert.AreEqual(50, addV2Result);
         }
 
-        [DataTestMethod]
-        [DataRow(1, 1, 2)]
-        [DataRow(10, 10, 20)]
-        [DataRow(5, 50, 55)]
+        [TestCase(1, 1, 2)]
+        [TestCase(10, 10, 20)]
+        [TestCase(5, 50, 55)]
         public void AddV2_DatasTest(int one, int two, int addV2Result)
         {
             Assert.AreEqual(addV2Result, main.AddV2(one, two));
         }
 
-        [TestMethod]
+        [Test]
         public void AddV2_AddExceptionTest()
         {
-            Assert.ThrowsException<Demo.API.AddException>(() =>
+            Assert.Throws<Demo.API.AddException>(() =>
             {
                 main.AddV2(51, 20);
             });
 
         }
-        [TestMethod]
+        [Test]
         public void AddV2_SumExceptionTest()
         {
-            Assert.ThrowsException<Demo.API.SumException>(() =>
+            Assert.Throws<Demo.API.SumException>(() =>
             {
                 main.AddV2(45, 45);
             });
 
         }
-        [DataTestMethod()]
-        [DataRow(50, 51)]
-        [DataRow(100, 20)]
-        [DataRow(1000, 1)]
+        [TestCase(50, 51)]
+        [TestCase(100, 20)]
+        [TestCase(1000, 1)]
         public void AddV2_AddExceptionDatasTest(int one, int two)
         {
-            Assert.ThrowsException<Demo.API.AddException>(() =>
+            Assert.Throws<Demo.API.AddException>(() =>
             {
                 main.AddV2(one, two);
             });
         }
 
-        [DataTestMethod()]
-        [DataRow(50, 45)]
-        [DataRow(40, 42)]
-        [DataRow(41, 41)]
+
+        [TestCase(50, 45)]
+        [TestCase(40, 42)]
+        [TestCase(41, 41)]
         public void AddV2_SumExceptionDatasTest(int one, int two)
         {
-            Assert.ThrowsException<Demo.API.SumException>(() =>
+            Assert.Throws<Demo.API.SumException>(() =>
             {
                 main.AddV2(one, two);
             });
