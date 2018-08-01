@@ -8,6 +8,15 @@ namespace Demo.API
 {
     public class Main
     {
+        public double AddDouble(double one, double two)
+        {
+            if (one + two == 66)
+            {
+                return -1;
+            }
+            return one + two;
+        }
+
         /// <summary>
         /// 普通的加法计算器
         /// </summary>

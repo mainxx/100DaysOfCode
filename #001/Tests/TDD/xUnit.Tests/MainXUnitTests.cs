@@ -60,7 +60,7 @@ namespace xUnit.Tests
             });
 
         }
-        [Fact(DisplayName = "Throw Demo.API.SumException")]
+        [Fact(DisplayName = "抛出异常")]
         public void AddV2_SumExceptionTest()
         {
             Assert.Throws<Demo.API.SumException>(() =>
