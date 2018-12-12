@@ -1,0 +1,33 @@
+2018-12-12 20:13:40.2238 Info Message Template Auto Format enabled
+2018-12-12 20:13:40.2407 Info Loading assembly: NLog.Web.AspNetCore
+2018-12-12 20:13:40.3441 Info Adding target File Target[allfile]
+2018-12-12 20:13:40.3568 Info Adding target File Target[ownFile-web]
+2018-12-12 20:13:40.3801 Info Configured from an XML element in F:\Mainxx Github\100DaysOfCode\#002\Coding002\bin\Debug\netcoreapp2.1\nlog.config...
+2018-12-12 20:13:40.4204 Info Found 45 configuration items
+2018-12-12 20:17:07.2533 Info Logger closing down...
+2018-12-12 20:17:07.2569 Info Closing old configuration.
+2018-12-12 20:17:07.2837 Info Logger has been closed down.
+2018-12-12 20:17:07.2949 Info Shutting down logging...
+2018-12-12 20:17:07.3066 Info Logger has been shut down.
+2018-12-12 20:17:22.1429 Info Message Template Auto Format enabled
+2018-12-12 20:17:22.1596 Info Loading assembly: NLog.Web.AspNetCore
+2018-12-12 20:17:22.2860 Info Adding target File Target[allfile]
+2018-12-12 20:17:22.2990 Info Adding target File Target[ownFile-web]
+2018-12-12 20:17:22.3282 Info Configured from an XML element in F:\Mainxx Github\100DaysOfCode\#002\Coding002\bin\Debug\netcoreapp2.1\nlog.config...
+2018-12-12 20:17:22.3820 Info Found 45 configuration items
+2018-12-12 20:19:05.5740 Info Logger closing down...
+2018-12-12 20:19:05.5740 Info Closing old configuration.
+2018-12-12 20:19:05.6029 Info Logger has been closed down.
+2018-12-12 20:19:05.6029 Info Shutting down logging...
+2018-12-12 20:19:05.6261 Info Logger has been shut down.
+2018-12-12 20:20:13.2629 Info Message Template Auto Format enabled
+2018-12-12 20:20:13.2869 Info Loading assembly: NLog.Web.AspNetCore
+2018-12-12 20:20:13.3855 Info Adding target File Target[allfile]
+2018-12-12 20:20:13.3986 Info Adding target File Target[ownFile-web]
+2018-12-12 20:20:13.4219 Info Configured from an XML element in F:\Mainxx Github\100DaysOfCode\#002\Coding002\bin\Debug\netcoreapp2.1\nlog.config...
+2018-12-12 20:20:13.4613 Info Found 45 configuration items
+2018-12-12 20:23:41.6470 Info Logger closing down...
+2018-12-12 20:23:41.6608 Info Closing old configuration.
+2018-12-12 20:23:41.6858 Info Logger has been closed down.
+2018-12-12 20:23:41.6966 Info Shutting down logging...
+2018-12-12 20:23:41.6966 Info Logger has been shut down.
